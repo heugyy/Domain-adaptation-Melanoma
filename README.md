@@ -1,7 +1,12 @@
 # Domain adaptation for skin cancer classification
-Please see this paper for more details: Transfer learning and domain adaptation for skin cancer classification
 
-Please cite:
+## Summary
+In this work, we compared classification performance on skin disease dataset of two different domains. Please see this paper for more details: Progressive transfer learning and adversarial domain adaptation for cross-domain skin disease classification
+
+## Repo description
+
+
+## Bibtex:
 @article{gu2019progressive,
   title={Progressive transfer learning and adversarial domain adaptation for cross-domain skin disease classification},
   author={Gu, Yanyang and Ge, Zongyuan and Bonnington, C Paul and Zhou, Jun},
@@ -13,3 +18,4 @@ Please cite:
   publisher={IEEE}
 }
 
+In this work
