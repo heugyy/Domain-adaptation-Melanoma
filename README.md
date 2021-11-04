@@ -1,5 +1,6 @@
-# Domain-adaptation-Melanoma
-Codes for paper: Transfer learning and domain adaptation for skin cancer classification
+# Domain adaptation for skin cancer classification
+Please see this paper for more details: Transfer learning and domain adaptation for skin cancer classification
+
 Please cite:
 @article{gu2019progressive,
   title={Progressive transfer learning and adversarial domain adaptation for cross-domain skin disease classification},
