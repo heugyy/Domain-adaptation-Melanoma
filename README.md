@@ -28,4 +28,8 @@ Please see this paper for more details: [Progressive transfer learning and adver
 }
 
 ## Repo description
-[train_from_scratch](https://github.com/heugyy/Domain-adaptation-Melanoma/blob/master/train_from_scratch.py) trains a model from scratch. [1step-transfer-learning](https://github.com/heugyy/Domain-adaptation-Melanoma/blob/master/1step_transfer_learning.py) is training a classification model using ImageNet pre-train model, and [2step-transfer-learning](https://github.com/heugyy/Domain-adaptation-Melanoma/blob/master/2step_transfer_learning.py) is training a middel model on a larger dataset first before training on the final dataset. [test](https://github.com/heugyy/Domain-adaptation-Melanoma/blob/master/test.py) is loading a model and testing model performance. [roc-aucCalculation](https://github.com/heugyy/Domain-adaptation-Melanoma/blob/master/Roc-AucCalculation.py) is plotting ROC-AUC curve using the testing results.
+> [train_from_scratch](https://github.com/heugyy/Domain-adaptation-Melanoma/blob/master/train_from_scratch.py) trains a model from scratch. 
+> [1step-transfer-learning](https://github.com/heugyy/Domain-adaptation-Melanoma/blob/master/1step_transfer_learning.py) is training a classification model using ImageNet pre-train model.
+> [2step-transfer-learning](https://github.com/heugyy/Domain-adaptation-Melanoma/blob/master/2step_transfer_learning.py) is training a middel model on a larger dataset first before training on the final dataset. 
+> [test](https://github.com/heugyy/Domain-adaptation-Melanoma/blob/master/test.py) is loading a model and testing model performance. 
+> [roc-aucCalculation](https://github.com/heugyy/Domain-adaptation-Melanoma/blob/master/Roc-AucCalculation.py) is plotting ROC-AUC curve using the testing results.
