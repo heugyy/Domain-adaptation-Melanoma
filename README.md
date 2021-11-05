@@ -12,7 +12,7 @@ This work aims at alieviate the domain shift issue in skin cancer classification
 We compared classification performance between w/wo applying transfer learning, as well as applying w/wo CycleGAN on target domain. 
 
 
-Please see this paper for more details: [Progressive transfer learning and adversarial domain adaptation for cross-domain skin disease classification]{https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8846038}.
+Please see this paper for more details: [Progressive transfer learning and adversarial domain adaptation for cross-domain skin disease classification](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8846038).
 
 **Bibtex:**
 
