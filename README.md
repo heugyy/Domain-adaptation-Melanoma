@@ -33,3 +33,4 @@ Please see this paper for more details: [Progressive transfer learning and adver
 * [2step-transfer-learning](https://github.com/heugyy/Domain-adaptation-Melanoma/blob/master/2step_transfer_learning.py) is training a middel model on a larger dataset first before training on the final dataset. 
 * [test](https://github.com/heugyy/Domain-adaptation-Melanoma/blob/master/test.py) is loading a model and testing model performance. 
 * [roc-aucCalculation](https://github.com/heugyy/Domain-adaptation-Melanoma/blob/master/Roc-AucCalculation.py) is plotting ROC-AUC curve using the testing results.
+* [transfer_learning_load_Model](https://github.com/heugyy/Domain-adaptation-Melanoma/blob/master/transfer_learning_load_Model.py) is not a part of pipeline, but it provides a possibility to continue training models.
