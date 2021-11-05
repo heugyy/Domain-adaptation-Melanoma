@@ -1,7 +1,18 @@
 # Domain adaptation for skin cancer classification
 
 ## Summary
-In this work, we compared classification performance on skin disease dataset of two different domains. Please see this paper for more details: Progressive transfer learning and adversarial domain adaptation for cross-domain skin disease classification.
+This work aims at alieviate the domain shift issue in skin cancer classification problem, as shows in the table bellow.
+
+| Dataset name  | Train | Test-HAM  | Test-MoleMap |
+| ------------- | ------------- |---------|-------|
+| HAM  | 0.952  | 0.907 | 0.310 |
+| MoleMap | 0.900 | 0.535 | 0.795 |
+| HAM+MoleMap | 0.913 | 0.902 | 0.792 |
+
+We compared classification performance between w/wo applying transfer learning, as well as applying w/wo CycleGAN on target domain. 
+
+
+Please see this paper for more details: [Progressive transfer learning and adversarial domain adaptation for cross-domain skin disease classification]{https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8846038}.
 
 **Bibtex:**
 
@@ -17,5 +28,7 @@ In this work, we compared classification performance on skin disease dataset of 
 }
 
 ## Repo description
-[1step-transfer-learning](https://github.com/heugyy/Domain-adaptation-Melanoma/blob/master/1step_transfer_learning.py) and [2step-transfer-learning](https://github.com/heugyy/Domain-adaptation-Melanoma/blob/master/2step_transfer_learning.py).
+[1step-transfer-learning](https://github.com/heugyy/Domain-adaptation-Melanoma/blob/master/1step_transfer_learning.py) is training a classification model using ImageNet pre-train model, and [2step-transfer-learning](https://github.com/heugyy/Domain-adaptation-Melanoma/blob/master/2step_transfer_learning.py) is training a middel model on a larger dataset first before training on the final dataset.
+
+
 
